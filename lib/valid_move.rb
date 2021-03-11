@@ -14,14 +14,14 @@ def move(board, index, value = "X")
   board[index] = value
 end
 
-def valid_move?(board, index)
-  
-end
-
 def position_taken?(board, index)
   if board[index] == " " || board[index] == "" || board[index] == nil
     return false
   else board == "X" || board == "O"
     return true
   end
+end
+
+def valid_move?(board, index)
+  if 
 end
